@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "rep+ (Firefox)",
+    "version": "1.0",
+    "description": "A lightweight Burp Repeater clone for Firefox DevTools. This is a converted version for Firefox.",
+    "author": "Bour Abdelhadi with help of LLM",
+    "permissions": [
+        "devtools",
+        "activeTab",
+        "storage",
+        "<all_urls>"
+    ],
+    "icons": {
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+    },
+    "devtools_page": "devtools.html",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_specific_settings": {
+        "gecko": {
+            "id": "rep-plus@example.com"
+        }
+    }
+}
